@@ -1,0 +1,28 @@
+{
+  "name": "ms-otp",
+  "version": "1.0.0",
+  "description": "A microservice to generate one time password (OTP) key and encrypted pass key using Node.js low level Crypto dependency.",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:watch": "tsc --watch",
+    "start": "node --env-file=.env ./dist/server.js",
+    "dev": "nodemon --env-file=.env ./dist/server.js"
+  },
+  "keywords": [
+    "psql",
+    "node.js",
+    "postgres",
+    "pg",
+    "postgreSQL",
+    "javascript",
+    "JS"
+  ],
+  "author": "shugyoza",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.6",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {}
+}
