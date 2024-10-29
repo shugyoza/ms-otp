@@ -62,4 +62,6 @@ const server = createServer((req: http.IncomingMessage, res: http.ServerResponse
   };
 });
 
-server.listen(port, hostname, undefined, () => console.log(message));
+server.listen(port, () => {
+  console.log(`Server running at http://${hostname}:${port}`);
+});
